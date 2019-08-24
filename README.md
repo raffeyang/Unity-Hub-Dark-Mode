@@ -1,6 +1,6 @@
 # Unity Hub Dark Mode
 
-![images]{./Images/Images.png}
+![images]{images/image.png}
 
 ## How to
 

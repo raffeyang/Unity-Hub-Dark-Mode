@@ -16,3 +16,8 @@ You can found the `app.asar` file in the `/Applications/Unity Hub.app/Contents/R
 - Change the style
 
 Add `DarkUnityHub.css` to `client/dist/index.html` &`client/dist/index-new-project.html`
+
+- Pack you file
+  `asar pack app app.asar`
+
+- Replace the app.asar file

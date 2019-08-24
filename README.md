@@ -1,6 +1,6 @@
 # Unity Hub Dark Mode
 
-![images]{images/image.png}
+![images]{https://github.com/Jax0rz/Unity-Hub-Dark-Mode/blob/master/images/image.png}
 
 ## How to
 
@@ -13,4 +13,6 @@
 You can found the `app.asar` file in the `/Applications/Unity Hub.app/Contents/Resources`
 `asar extract app.asar app`
 
-- Add DarkUnityHub.css to `client/dist/index.html` &`client/dist/index-new-project.html`
+- Change the style
+
+Add `DarkUnityHub.css` to `client/dist/index.html` &`client/dist/index-new-project.html`

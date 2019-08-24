@@ -1,6 +1,6 @@
 # Unity Hub Dark Mode
 
-![images]{https://github.com/Jax0rz/Unity-Hub-Dark-Mode/blob/master/images/image.png}
+![Alt text](./images/image.png)
 
 ## How to
 

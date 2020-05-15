@@ -1,6 +1,6 @@
 # Unity Hub Dark Mode
 
-I test it on macOS ,It should work on Windows too.
+I test it on macOS ,It should works on Windows too.
 
 ![Alt text](./images/image1.png)
 
@@ -13,6 +13,8 @@ I test it on macOS ,It should work on Windows too.
 You can found the `app.asar` file in the `/Applications/Unity Hub.app/Contents/Resources`
 
 - Make title bar to be dark 
+
+> Warning:this step only works on macOS,I don't know how to make the title bar to be dark on Windows
 
 Open Terminal.app, then input
 
@@ -47,3 +49,7 @@ asar pack app app.asar
 ```
 
 - Replace the app.asar file
+
+## License
+
+MIT

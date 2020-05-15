@@ -1,5 +1,7 @@
 # Unity Hub Dark Mode
 
+I test it on macOS ,It should work on Windows too.
+
 ![Alt text](./images/image1.png)
 
 ![Alt text](./images/image2.png)

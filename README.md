@@ -12,7 +12,7 @@ You can found the `app.asar` file in the `/Applications/Unity Hub.app/Contents/R
 
 - Make title bar to be dark 
 
-Open Terminal.app the input 
+Open Terminal.app, then input
 
 ```bash
 defaults write com.unity3d.unityhub NSRequiresAquaSystemAppearance 0

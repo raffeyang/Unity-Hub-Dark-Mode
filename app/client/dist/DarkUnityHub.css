@@ -3,7 +3,6 @@ html {
     background: #1a1a1a !important;
 }
 
-/*----- DEFAULT TEXT, BORDER & BACKGROUND COLORS -----*/
 * {
     color: #d8dee9 !important;
     background-color: transparent !important;
@@ -17,4 +16,25 @@ body {
 *:before,
 *:after {
     background-color: transparent !important;
+}
+
+iframe,
+embed,
+label [onclick],
+div[style*='position:'][style*='left:'][style*='visible'],
+div[style*='z-index:'][style*='left:'][style*='visible'],
+div[role='dialog'],
+span[class*='script'] div,
+[id*='menu'],
+[id*='Menu'],
+[class*='dropdown'],
+[class*='popup'],
+[class*='dialog'],
+ul[style*='display:'],
+ul[style*='visibility:'] ul,
+a[onclick][style*='display'],
+.menu,
+.tooltip
+{
+    background: rgba(5, 5, 5, 0.9) !important;
 }

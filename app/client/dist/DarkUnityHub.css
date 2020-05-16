@@ -1,6 +1,6 @@
 html {
     color: #d8dee9 !important;
-    background: #1a1a1a !important;
+    background: #000000 !important;
 }
 
 * {
@@ -36,7 +36,7 @@ ul[style*='visibility:'] ul,
 a[onclick][style*='display'],
 .menu,
 .tooltip {
-    background: rgba(5, 5, 5, 0.9) !important;
+    background: #000000 !important;
 }
 
 input[type='checkbox'],

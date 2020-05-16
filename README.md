@@ -50,6 +50,41 @@ asar pack app app.asar
 
 - Replace the app.asar file
 
+## Advanced Tweak
+
+- Hide Learn
+
+remove `ei.LEARN_TAB,` in `/app/client/dist/main.js`
+
+```js
+this.localConfigClient.isLearnDisabled()
+    ? this.mainNavItems.push(ei.PROJECT_TAB, ei.INSTALL_TAB)
+    : this.mainNavItems.push(
+          ei.PROJECT_TAB,
+          ei.INSTALL_TAB
+      ),
+```
+
+- Hide Community
+
+Searching 'community.html' in `/app/client/dist/main.js`,then change the function to below
+
+```js
+function (e, t, n) {
+    var i =
+            '/Users/bokken/buildslave/uw-hub/build/client/apps/main/components/community/community.html',
+        o =
+            '<h1>Unity</h1>'
+    window.angular.module('ng').run([
+        '$templateCache',
+        function (e) {
+            e.put(i, o)
+        },
+    ]),
+        (e.exports = i)
+},
+```
+
 ## License
 
 MIT

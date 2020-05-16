@@ -19,6 +19,7 @@ body {
 }
 
 iframe,
+
 embed,
 label [onclick],
 div[style*='position:'][style*='left:'][style*='visible'],
@@ -34,7 +35,24 @@ ul[style*='display:'],
 ul[style*='visibility:'] ul,
 a[onclick][style*='display'],
 .menu,
-.tooltip
-{
+.tooltip {
     background: rgba(5, 5, 5, 0.9) !important;
+}
+
+input[type='checkbox'],
+input[type='checkbox']:focus {
+    border-color: #d8dee9 !important;
+    border-radius: 1px !important;
+    box-shadow: 0 0 5px #1e84d5 !important;
+}
+input[type='radio'],
+input[type='radio']:focus {
+    border-color: #d8dee9 !important;
+    border-radius: 100% !important;
+    box-shadow: 0 0 5px #1e84d5 !important;
+}
+input[type='checkbox']:checked,
+input[type='radio']:checked {
+    border-color: #d8dee9 !important;
+    box-shadow: 0 0 5px #1e84d5 !important;
 }

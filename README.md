@@ -22,7 +22,7 @@ Open Terminal.app, then input
 defaults write com.unity3d.unityhub NSRequiresAquaSystemAppearance 0
 ```
 
-## How to build your owe dark theme
+## How to build your own dark theme
 
 - install asar
 

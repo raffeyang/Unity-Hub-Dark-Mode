@@ -1,12 +1,6 @@
-html,body,*{
-    background-color: #1A1A1A !important;
-    z-index: auto !important;
-    color: #939293 !important;
-    border-width: 0 !important;
+div{
+    color: #64D7FF !important;
 }
 button{
-    background-color: #1A1A1A !important;
-    z-index: auto !important;
-    color: #63D0FF !important;
-    border-width: 0 !important;
+    background-color: transparent !important;
 }
